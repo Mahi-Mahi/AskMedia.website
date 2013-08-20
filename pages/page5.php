@@ -108,7 +108,7 @@ if(!empty($_POST))
     {
         $Name = stripslashes($_POST['nom']) ;
         $email = $_POST['mail'];
-        $recipient = 'hpennes@askmedia.fr' ;
+        $recipient = 'info@askmedia.fr' ;
         $mail_body = stripslashes($_POST['message']) ;
         $subject = 'Nouveau message via Ask Media' ;
         $header = "From: ". $Name . " <" . $email . ">\r\n";
