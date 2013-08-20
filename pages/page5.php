@@ -56,7 +56,7 @@
 				    		<p class="charText"><span>R&eacute;dacteur en chef<br/>infographies</span></p>
 				    	</div></li>
 				    </ul>
-				    <!---<ul class="orga">
+				    <!-- <ul class="orga">
 				    	<li><div id="char10" class="orgaLink">
 				    		<img id="orgaImg1" class="orgaScreen hires" src="img/char/10.jpg">
 				    		<p class="charTitle">Projet 10</p>
@@ -72,7 +72,7 @@
 				    		<p class="charTitle">Projet 12</p>
 				    		<p class="charText"><span>Lorem Ipsum</span>dskqo mdqsko mqdkso msqk</p>
 				    	</div></li>
-				    </ul>--->
+				    </ul> -->
 			    	</div>
 		</div>
 	</div>
@@ -83,7 +83,7 @@ if(!empty($_POST))
 {
     $error = 0;
     $text_erreur = '';
-    
+
     if(empty($_POST['nom'])) {
         $error++;
         $text_erreur .= 'Le champs "Nom" est vide<br/>';
@@ -97,7 +97,7 @@ if(!empty($_POST))
         $error++;
         $text_erreur .= 'Le champs "Message" est vide<br/>';
     }
-    
+
     if($error > 0)
     {
         $listerreur = 'Il y a '.$error.' erreur(s) :<br/>'.$text_erreur ;
@@ -114,7 +114,7 @@ if(!empty($_POST))
         $header = "From: ". $Name . " <" . $email . ">\r\n";
 
         $mail_fonction = mail($recipient, $subject, $mail_body, $header);
-        
+
         //Si le mail est bien envoyé
         if($mail_fonction == true)
         {
@@ -125,13 +125,13 @@ if(!empty($_POST))
 
 <form method="post" action="" id="mailer">
     <fieldset>
-    
-            <input id="input1" type="text" class="inputglobal" name="nom" alt="Nom Pr&eacute;nom" placeholder="Pr&eacute;nom Nom" onfocus="this.value=''; this.onfocus=null;"/>        
+
+            <input id="input1" type="text" class="inputglobal" name="nom" alt="Nom Pr&eacute;nom" placeholder="Pr&eacute;nom Nom" onfocus="this.value=''; this.onfocus=null;"/>
 
 		 <input type="text" onfocus="this.value=''; this.onfocus=null;" id="input2" class="inputglobal" name="mail" alt="Adresse e-mail" placeholder="Adresse e-mail"/>
-        
+
 		 <textarea  onfocus="this.value=''; this.onfocus=null;" class="inputglobal" id="input3" name="message" alt="Votre message..." placeholder="Votre message..."></textarea>
-        
+
 		 <button class="custombutton button" type="submit" name="Envoi" value="Envoi" id="submitbtn">
 		 <img src="img/Bt-submit.png" id="sumbitbtnimg" alt="Envoyer">
 		 </button>
@@ -139,7 +139,7 @@ if(!empty($_POST))
 </form>
 
 
-<ul id=”twitter_update_list”></ul>
+<ul id="twitter_update_list"></ul>
 
 <div style="position:absolute;left:425px;top:92px;overflow:hidden;width:500px;height:294px;padding-left:5px;background:white;padding:0px;border:2px solid #cf332b">
 <a class="twitter-timeline" data-chrome="nofooter noheader border transparent" height="294px" href="https://twitter.com/AskMedia_" data-widget-id="367624177047465984" data-show-replies="false"></a>
@@ -151,10 +151,10 @@ if(!empty($_POST))
 	<img src="img/Bt-Follow.png" id="followbtnimg" alt="Suivez nous sur Twitter!">
 </a>
 
+<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
 <script>
- type="text/javascript" src="http://twitter.com/javascripts/blogger.js">
-	$(function() {$(".button").click(function(){$(this).addClass("clickedBtn");});});
-	$(function() {$(".button").release(function(){$(this).removeClass("clickedBtn");});});
+	jQuery(function() {jQuery(".button").click(function(){jQuery(this).addClass("clickedBtn");});});
+	// jQuery(function() {jQuery(".button").release(function(){jQuery(this).removeClass("clickedBtn");});});
 </script>
 
 

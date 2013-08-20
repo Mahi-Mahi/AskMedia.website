@@ -1,5 +1,5 @@
 <div id="preload-elements">
-<!---PRELOAD START--->
+<!--PRELOAD START-->
 <img src="img/bg-patrn-@2x.png" alt="bg-patrn-@2x" width="" height="" />
 <img src="img/blackrocks-@2x.png" alt="blackrocks-@2x" width="" height="" />
 <img src="img/block-logos-@2x.png" alt="block-logos-@2x" width="" height="" />
@@ -39,5 +39,5 @@
 <img src="img/Twitter-Icon-@2x.png" alt="Twitter-Icon-@2x" width="" height="" />
 <img src="img/whiteLine1-@2x.png" alt="whiteLine1-@2x" width="" height="" />
 <img src="img/whiteLine2-@2x.png" alt="whiteLine2-@2x" width="" height="" />
-<!---END PRELOAD--->
+<!--END PRELOAD-->
 </div>
