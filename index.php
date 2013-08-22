@@ -1,7 +1,13 @@
-<html>
+<!--[if lte IE 7]> <!DOCTYPE html><html class="ie7 oldie" lang="fr-FR"> <![endif]-->
+<!--[if IE 8]> <!DOCTYPE html><html class="ie8 oldie" lang="fr-FR"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr-FR"> <!--<![endif]-->
 <head>
-	<title></title>
+	<meta charset="UTF-8">
+	<title>Ask Media - L'agence Infographie Dataviz &amp; Web Apps</title>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<!--[if (gt IE 6)&(lte IE 8)]>
+	<script type="text/javascript" src="js/selectivizr-min.js"></script>
+	<![endif]-->
 	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
 	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 	<meta name="viewport" content="width=1000">
@@ -17,7 +23,6 @@
 		<div id="BgMask"></div>
 		<div id="CarrouselWrapper"><img id="imagewrapper" class="hires" src=""></div>
 	</div>
-
 	<?php $rubrique=array("Accueil","R&eacute;alisations","Contacts","Staff")?>
 	<div id="content"><div id="navcontainer2" class="alt-nav">
 		<div id="blackTopLine"></div>

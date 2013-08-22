@@ -65,12 +65,12 @@
 	</div>
 
 	<div id="Web">
-	<li class="PortfolioSquare Web" target="_blank" href="http://quoi.askmedia.fr/en" style="background:url(img/portfolio/web1s.jpg);" title=""></li>
-	<li class="PortfolioSquare Web" target="_blank" href="http://www.leparisien.fr/magazine/bonus/141212/01/index.php" style="background:url(img/portfolio/web2s.jpg);" title="C'est quoi &quot;ouvrir un compte en Suisse?&quot;"></li>
-	<li class="PortfolioSquare Web" target="_blank" href="http://www.leparisien.fr/magazine/bonus/280912/01/index.php" style="background:url(img/portfolio/web3s.jpg);" title="Que dit le trait&eacute; budg&eacute;taire europ&eacute;en?"></li>
-	<li class="PortfolioSquare Web" target="_blank" href="http://www.leparisien.fr/magazine/bonus/260713/01/index.php" style="background:url(img/portfolio/web4s.jpg);" title="O&ugrave; va l'argent du livret A?"></li>
-	<li class="PortfolioSquare Web" target="_blank" href="http://www.leparisien.fr/magazine/bonus/020813/01/index.php" style="background:url(img/portfolio/web5s.jpg);" title="C'est quoi une &eacute;tiquette NFC?"></li>
-	<li class="PortfolioSquare Web" target="_blank" href="http://www.leparisien.fr/magazine/bonus/260413/01/index.php" style="background:url(img/portfolio/web6s.jpg);" title="Comment fonctionne le plan vigipirate?"></li>
+	<li class="PortfolioSquare Web" onclick="window.open('http://quoi.askmedia.fr/en');" style="background:url(img/portfolio/web1s.jpg);" title=""></li>
+	<li class="PortfolioSquare Web" onclick="window.open('http://www.leparisien.fr/magazine/bonus/141212/01/index.php');" style="background:url(img/portfolio/web2s.jpg);" title="C'est quoi &quot;ouvrir un compte en Suisse?&quot;"></li>
+	<li class="PortfolioSquare Web" onclick="window.open('http://www.leparisien.fr/magazine/bonus/280912/01/index.php');" style="background:url(img/portfolio/web3s.jpg);" title="Que dit le trait&eacute; budg&eacute;taire europ&eacute;en?"></li>
+	<li class="PortfolioSquare Web" onclick="window.open('http://www.leparisien.fr/magazine/bonus/260713/01/index.php');" style="background:url(img/portfolio/web4s.jpg);" title="O&ugrave; va l'argent du livret A?"></li>
+	<li class="PortfolioSquare Web" onclick="window.open('http://www.leparisien.fr/magazine/bonus/020813/01/index.php');" style="background:url(img/portfolio/web5s.jpg);" title="C'est quoi une &eacute;tiquette NFC?"></li>
+	<li class="PortfolioSquare Web" onclick="window.open('http://www.leparisien.fr/magazine/bonus/260413/01/index.php');" style="background:url(img/portfolio/web6s.jpg);" title="Comment fonctionne le plan vigipirate?"></li>
 	</div>
 
 	<div id="Data">
