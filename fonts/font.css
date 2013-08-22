@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Knockout 28 Junior Feathrwt';
+  src: url('Knockout-28.eot'); /* IE9 Compat Modes */
+  src: url('Knockout-28.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Knockout-28.woff') format('woff'), /* Modern Browsers */
+       url('Knockout-28.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Knockout-28.svg#99d06cdfc69a4b20a83950a09f1abf1d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Archer Light';
+  src: url('Archer-Light-Pro.eot'); /* IE9 Compat Modes */
+  src: url('Archer-Light-Pro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Archer-Light-Pro.woff') format('woff'), /* Modern Browsers */
+       url('Archer-Light-Pro.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Archer-Light-Pro.svg#46d67fde734bddb3e92058d882158e8f') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Knockout 26 Junior Flywght';
+  src: url('Knockout-26.eot'); /* IE9 Compat Modes */
+  src: url('Knockout-26.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Knockout-26.woff') format('woff'), /* Modern Browsers */
+       url('Knockout-26.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Knockout-26.svg#f92f8513adb033bc47507c608fe404e4') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Knockout 68 Full Featherwt';
+  src: url('Knockout-68.eot'); /* IE9 Compat Modes */
+  src: url('Knockout-68.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Knockout-68.woff') format('woff'), /* Modern Browsers */
+       url('Knockout-68.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Knockout-68.svg#f5d8a3680b52823f345c0609e4536aa2') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Archer Bold';
+  src: url('Archer-Bold-Pro.eot'); /* IE9 Compat Modes */
+  src: url('Archer-Bold-Pro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Archer-Bold-Pro.woff') format('woff'), /* Modern Browsers */
+       url('Archer-Bold-Pro.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Archer-Bold-Pro.svg#decd8f1341b56d0cdd62c26da52a7169') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
