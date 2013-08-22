@@ -50,18 +50,18 @@
 	<img src="img/ill3.png" id="ill3" class="animate hires" alt=""/>
 
 	<div id="Print">
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print1.jpg" style="background:url(img/portfolio/print1s.jpg);" title="C'est quoi un r&eacute;acteur nucl&eacute;aire EPR?"></li>
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print2.jpg" style="background:url(img/portfolio/print2s.jpg);" title="Combien paye-t-on d'imp&ocirc;ts en France?"></li>
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print3.jpg" style="background:url(img/portfolio/print3s.jpg);" title="Comment le pape est-il &eacute;lu?"></li>
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print4.jpg" style="background:url(img/portfolio/print4s.jpg);" title="C'est quoi la r&eacute;alit&eacute; augment&eacute;e?"></li>
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print5.jpg" style="background:url(img/portfolio/print5s.jpg);" title="C'est quoi les Class Actions?"></li>
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print6.jpg" style="background:url(img/portfolio/print6s.jpg);" title="Contrat de g&eacute;n&eacute;ration: comment &ccedil;a va marcher?"></li>
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print7.jpg" style="background:url(img/portfolio/print7s.jpg);" title="C'est quoi cette mode des sequels?"></li>
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print8.jpg" style="background:url(img/portfolio/print8s.jpg);" title="Vous avez loup&eacute; Gangnam Style?"></li>
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print9.jpg" style="background:url(img/portfolio/print9s.jpg);" title="Les dix commandements d'un nouveau mod&egrave;le"></li>
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print10.jpg" style="background:url(img/portfolio/print10s.jpg);" title="Ils se sont aussi fait la belle"></li>
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print11.jpg" style="background:url(img/portfolio/print11s.jpg);" title="Cloud Computing"></li>
-	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print12.jpg" style="background:url(img/portfolio/print12s.jpg);" title="50 ans d'agriculture"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print1.jpg')" style="background:url(img/portfolio/print1s.jpg);" title="C'est quoi un r&eacute;acteur nucl&eacute;aire EPR?"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print2.jpg')" style="background:url(img/portfolio/print2s.jpg);" title="Combien paye-t-on d'imp&ocirc;ts en France?"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print3.jpg')" style="background:url(img/portfolio/print3s.jpg);" title="Comment le pape est-il &eacute;lu?"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print4.jpg')" style="background:url(img/portfolio/print4s.jpg);" title="C'est quoi la r&eacute;alit&eacute; augment&eacute;e?"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print5.jpg')" style="background:url(img/portfolio/print5s.jpg);" title="C'est quoi les Class Actions?"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print6.jpg')" style="background:url(img/portfolio/print6s.jpg);" title="Contrat de g&eacute;n&eacute;ration: comment &ccedil;a va marcher?"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print7.jpg')" style="background:url(img/portfolio/print7s.jpg);" title="C'est quoi cette mode des sequels?"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print8.jpg')" style="background:url(img/portfolio/print8s.jpg);" title="Vous avez loup&eacute; Gangnam Style?"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print9.jpg')" style="background:url(img/portfolio/print9s.jpg);" title="Les dix commandements d'un nouveau mod&egrave;le"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print10.jpg')" style="background:url(img/portfolio/print10s.jpg);" title="Ils se sont aussi fait la belle"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print11.jpg')" style="background:url(img/portfolio/print11s.jpg);" title="Cloud Computing"></li>
+	<li class="PortfolioSquare Print" onclick="changeImage('img/portfolio/print12.jpg')" style="background:url(img/portfolio/print12s.jpg);" title="50 ans d'agriculture"></li>
 	</div>
 
 	<div id="Web">
@@ -74,8 +74,8 @@
 	</div>
 
 	<div id="Data">
-	<li class="PortfolioSquare Web" onclick="changeImage('img/portfolio/data1.jpg" style="background:url(img/portfolio/data1s.jpg);" title="Que fait l'État avec 1000 euros d'impôts?"></li>
-	<li class="PortfolioSquare Web" onclick="changeImage('img/portfolio/data2.jpg" style="background:url(img/portfolio/data2s.jpg);" title="Le low Cost est-il vraiment moins cher?"></li>
-	<li class="PortfolioSquare Web" onclick="changeImage('img/portfolio/data3.jpg" style="background:url(img/portfolio/data3s.jpg);" title="Roland Garros en chiffres..."></li>
+	<li class="PortfolioSquare Web" onclick="changeImage('img/portfolio/data1.jpg')" style="background:url(img/portfolio/data1s.jpg);" title="Que fait l'État avec 1000 euros d'impôts?"></li>
+	<li class="PortfolioSquare Web" onclick="changeImage('img/portfolio/data2.jpg')" style="background:url(img/portfolio/data2s.jpg);" title="Le low Cost est-il vraiment moins cher?"></li>
+	<li class="PortfolioSquare Web" onclick="changeImage('img/portfolio/data3.jpg')" style="background:url(img/portfolio/data3s.jpg);" title="Roland Garros en chiffres..."></li>
 	</div>
 </div>
