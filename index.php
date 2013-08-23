@@ -1,5 +1,6 @@
-<!--[if lte IE 7]> <!DOCTYPE html><html class="ie7 oldie" lang="fr-FR"> <![endif]-->
-<!--[if IE 8]> <!DOCTYPE html><html class="ie8 oldie" lang="fr-FR"> <![endif]-->
+<!DOCTYPE html>
+<!--[if lte IE 7]><html class="ie7 oldie" lang="fr-FR"> <![endif]-->
+<!--[if IE 8]><html class="ie8 oldie" lang="fr-FR"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="fr-FR"> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
