@@ -220,45 +220,34 @@ jQuery(function() {
 
 	jQuery('#logo1 , #logo2').click(function(event) {
 		document.title = "Ask Media | Accueil";
-		jQuery('body').animate({
-			scrollTop: 0
-		}, 400);
 		event.preventDefault();
 	});
 
 	/*********GO TO PAGE 1**********/
 	jQuery('#rubrique1').click(function(event) {
 		document.title = "Ask Media | Accueil";
-		jQuery('body').animate({
-			scrollTop: 0
-		}, 400);
+		$('body').stop().scrollTo( '0', 400 );
 		event.preventDefault();
 	});
 
 	/*********GO TO PAGE 2**********/
 	jQuery('#rubrique2').click(function(event) {
 		document.title = "Ask Media | Réalisations";
-		jQuery('body').animate({
-			scrollTop: 1230
-		}, 400);
+		$('body').stop().scrollTo( '1230px', 400 );
 		event.preventDefault();
 	});
 
 	/*********GO TO PAGE 3**********/
 	jQuery('#rubrique3').click(function(event) {
 		document.title = "Ask Media | Contacts";
-		jQuery('body').animate({
-			scrollTop: 2428
-		}, 400);
+		$('body').stop().scrollTo( '2428px', 400 );
 		event.preventDefault();
 	});
 
 	/*********GO TO PAGE 4**********/
 	jQuery('#rubrique4').click(function(event) {
 		document.title = "Ask Media | Staff";
-		jQuery('body').animate({
-			scrollTop: 3435
-		}, 400);
+		$('body').stop().scrollTo( '3365px', 400 );
 		event.preventDefault();
 	});
 
