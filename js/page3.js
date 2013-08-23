@@ -13,9 +13,4 @@ jQuery(function() {
 		generatePagination: false,
 		slideSpeed: 1200
 	});
-	/*
-	jQuery(".logoclilink:hover").animate({
-		'background': 'white'
-	}, 'fast');
-	*/
 });
