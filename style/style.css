@@ -51,12 +51,66 @@ table {
 textarea,input{border:none;padding:0;margin:0;background:none;font-family: }
 .custombutton{padding:0;margin:0;border:none;background:none;cursor:pointer;}
 
-/****FONTFACE****/
+/****FONT-FACE****/
+/*
 @font-face {font-family: 'Knockout'; src: url('../fonts/Knockout-26.otf');font-weight: 300;}
 @font-face {font-family: 'Knockout'; src: url('../fonts/Knockout-28.otf');font-weight: 500;}
 @font-face {font-family: 'Knockout'; src: url('../fonts/Knockout-68.otf');font-weight: 700;}
 @font-face {font-family: 'Archer'; src: url('../fonts/Archer-Light-Pro.otf');font-weight: 300;}
 @font-face {font-family: 'Archer'; src: url('../fonts/Archer-Bold-Pro.otf');font-weight: 700;}
+*/
+
+@font-face {
+  font-family: 'Knockout';
+  src: url('../fonts/Knockout-26.eot');
+  src: url('../fonts/Knockout-26.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Knockout-26.woff') format('woff'),
+       url('../fonts/Knockout-26.ttf')  format('truetype');   
+  font-style:   normal;
+  font-weight:  300;
+}
+
+@font-face {
+  font-family: 'Knockout';
+  src: url('../fonts/Knockout-28.eot');
+  src: url('../fonts/Knockout-28.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Knockout-28.woff') format('woff'),
+       url('../fonts/Knockout-28.ttf')  format('truetype');      
+  font-style:   normal;
+  font-weight:  500;
+}
+
+@font-face {
+  font-family: 'Knockout';
+  src: url('../fonts/Knockout-68.eot');
+  src: url('../fonts/Knockout-68.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Knockout-68.woff') format('woff'),
+       url('../fonts/Knockout-68.ttf')  format('truetype');   
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Archer';
+  src: url('../fonts/Archer-Light-Pro.eot');
+  src: url('../fonts/Archer-Light-Pro.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Archer-Light-Pro.woff') format('woff'),
+       url('../fonts/Archer-Light-Pro.ttf')  format('truetype');
+  font-style:   normal;
+  font-weight:  300;
+}
+
+@font-face {
+  font-family: 'Archer';
+  src: url('../fonts/Archer-Bold-Pro.eot');
+  src: url('../fonts/Archer-Bold-Pro.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Archer-Bold-Pro.woff') format('woff'),
+       url('../fonts/Archer-Bold-Pro.ttf')  format('truetype');
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
 
 .stdEntry{line-height:130%;font-size:17px;color:#3F3933;font-family:'Archer';font-weight:300;}
 .listEntry{line-height:160%;font-size:23px;color:#3F3933;font-family:'Knockout';font-weight:500;text-align:left;}
