@@ -242,10 +242,12 @@ jQuery(function() {
 	jQuery('#rubrique2').click(function() {
 		var newtitle = "R\351alisations";
 		document.title = "Ask Media | " + newtitle;
+		/*
 		jQuery('body').animate({
 			scrollTop: 1230
 		}, 400);
 		return false;
+		*/
 	});
 
 	/*********GO TO PAGE 3**********/
