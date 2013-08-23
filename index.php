@@ -37,11 +37,13 @@
 		<a id="blogLink" href="http://www.askmedia.fr/blog/"><img id="blogRibbon" class="hires" src="img/ribbonMenu.png"><span>Blog</span></a>
 	</div>
 	<div class="page page1">
-		<?php include 'pages/page1.php';?>
-		<?php include 'pages/page2.php';?>
-		<?php include 'pages/page3.php';?>
-		<?php include 'pages/page4.php';?>
-		<?php include 'pages/page5.php';?>
+		<?php 
+			include 'pages/page1.php';
+			include 'pages/page2.php';
+			include 'pages/page3.php';
+			include 'pages/page4.php';
+			include 'pages/page5.php';
+		?>
 	</div>
 
 	</div>
